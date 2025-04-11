@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo Template_1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.7/css/dataTables.bootstrap5.css"/>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+    <style>
+        .para
+        {
+            text-align:justify;
+        }
+        .mycol
+        {
+            width:48%;
+        }
+        .myp
+        {
+            width:33%;
+        }
+        .navbar{
+            display:flex;
+            
+        }
+        .navbar ul{
+            display:inline-flex;
+            gap:15px;
+        }
+        .navbar ul li{
+            list-style-type: none;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container mt-2 mb-2 p-3 border border-2">
+        <div class="row bg-black pb-5">
+            <div class="col-md-12">
+                <h1 class="text-light">Project Name</h1>
+            </div>
+        </div>
+
+        <div class="row bg-primary">
+            <div class="col-md-8 border border-1 bg-dark">
+                <!--<h4 class="text-light">section1</h4>-->
+                <nav class="navbar">
+                    <ul class="text-light">
+                        <li>Home</li>
+                        <li>About</li>
+                        <li>Services</li>
+                        <li>Contact</li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-md-4 border border-1 bg-dark d-flex">
+                <!--<h4 class="text-light">section2</h4>-->
+                <p class="bg-light mt-2 w-50">search</p><span class="bg-black text-light h-50 w-25 ms-2 mt-2">search</span>
+            </div>
+        </div>
+
+        <div class="row  mt-1" style="height:300px;">
+            <div class="col-md-8 para border border-2 bg-dark-subtle" style="height:300px;">
+                <h2>Main Content</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, impedit voluptatem! Maiores in 
+                porro aperiam. Cumque ratione doloremque deleniti vitae ipsa. Libero consectetur officiis ipsa 
+                veritatis necessitatibus non distinctio. Magni quibusdam molestiae eos. Dolores vitae illo voluptatibus
+                modi nemo voluptate? Blanditiis ab, aut non animi deleniti ducimus voluptas inventore quam.</p>
+                <button class="button w-25 bg-secondary-subtle"><i class="bi bi-arrow-right"></i>Read More</button>
+            </div>
+
+            <div class="col-md-4">
+                <h2>Sidebar</h2>
+                <h4>Advetisement</h4>
+               
+                <div class="row d-flex gap-2  mt-3" style="height: 150px;">
+                    <div class="col-md-5 bg-secondary-subtle mycol ms-1">
+                        <h4 class="text-center mt-5">box1</h4>
+                    </div>
+                    <div class="col-md-5 bg-secondary-subtle mycol">
+                        <h4 class="text-center mt-5">box2</h4>
+                    </div>
+                </div>
+                
+                <div class="row d-flex gap-2 mt-3" style="height: 150px;">
+                    <div class="col-md-5 bg-secondary-subtle mycol ms-1">
+                        <h4 class="text-center mt-5">box3</h4>
+                    </div>
+                    <div class="col-md-5 bg-secondary-subtle mycol">
+                        <h4 class="text-center mt-5">box4</h4>
+                    </div>
+                </div>
+
+                <div class="row d-flex gap-2 mt-3" style="height: 150px;">
+                    <div class="col-md-5 bg-secondary-subtle mycol ms-1">
+                        <h4 class="text-center mt-5">box5</h4>
+                    </div>
+                    <div class="col-md-5 bg-secondary-subtle mycol">
+                        <h4 class="text-center mt-5">box6</h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-5 bg-danger-subtle mt-3 ms-3">
+                        <h3>Widget</h3>
+                        <ul>
+                            <li>item1</li>
+                            <li>item2</li>
+                            <li>item3</li>
+                            <li>item4</li>
+                            <li>item5</li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row d-flex mt-2 gap-1">
+            <div class="col-md-4 bg-danger-subtle para myp">
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate libero mollitia provident. 
+                    Voluptatem fugit rem iusto voluptates quasi maxime reprehenderit inventore, ad nisi! Quas, 
+                    necessitatibus. Ea soluta ex ipsam debitis quidem tempore, facere ullam commodi ut ipsum beatae 
+                    molestiae! At voluptas esse molestias laboriosam dicta debitis reprehenderit culpa ratione nam.
+                </p>
+            </div>
+
+            <div class="col-md-4 bg-success-subtle para myp">
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione corrupti nostrum 
+                    consequuntur nihil porro earum molestiae veniam cumque, quam reiciendis! Assumenda, sint quo, 
+                    reprehenderit laboriosam vel, earum amet alias iure ad distinctio corporis. Ullam illum at 
+                    fugiat quae natus possimus aliquid ea non. Hic ex laboriosam earum minima magni.</p>
+            </div>
+        </div>
+
+        <div class="row d-flex mt-2 gap-1">
+            <div class="col-md-4 bg-danger-subtle para myp">
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate libero mollitia provident. 
+                    Voluptatem fugit rem iusto voluptates quasi maxime reprehenderit inventore, ad nisi! Quas, 
+                    necessitatibus. Ea soluta ex ipsam debitis quidem tempore, facere ullam commodi ut ipsum beatae 
+                    molestiae! At voluptas esse molestias laboriosam dicta debitis reprehenderit culpa ratione nam.
+                </p>
+            </div>
+
+            <div class="col-md-4 bg-success-subtle para myp">
+                <h3>Heading</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus ratione corrupti nostrum 
+                    consequuntur nihil porro earum molestiae veniam cumque, quam reiciendis! Assumenda, sint quo, 
+                    reprehenderit laboriosam vel, earum amet alias iure ad distinctio corporis. Ullam illum at 
+                    fugiat quae natus possimus aliquid ea non. Hic ex laboriosam earum minima magni.</p>
+            </div>
+        </div>
+       
+        <div class="row mt-2">
+            <div class="col-12 bg-dark-subtle border border-1">
+                <h6 class="p-3">@company 2012- layout based on</h6>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+</html>
